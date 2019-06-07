@@ -1,0 +1,8 @@
+autopep8==1.4.4
+certifi==2019.3.9
+chardet==3.0.4
+idna==2.8
+pycodestyle==2.5.0
+requests==2.22.0
+urllib3==1.25.3
+virtualenv==16.6.0
