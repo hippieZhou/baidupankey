@@ -1,6 +1,6 @@
 """
 Author:hippieZhou
-Date:20190606
+Date:20190608
 Description: Get BaiDuYun shared link's Code 
 """
 import argparse
@@ -68,25 +68,6 @@ def command_line_runner():
 
 
 def main():
-    """
-    https://pan.baidu.com/s/1qYEj76s
-    {'status': True, 'access_url': 'https://pan.baidu.com/s/1qYEj76s'}
-    https://pan.baidu.com/s/1qYLrSOs 密码：wezk
-    {'status': True, 'access_url': 'https://pan.baidu.com/s/1qYLrSOs', 'access_code': 'wezk'}
-    http://pan.baidu.com/s/1dtT3i7y
-    {'status': True, 'access_url': 'https://pan.baidu.com/s/1dtT3i7y'}
-    https://pan.baidu.com/s/1gfrjidd 密码: imfc
-    http://pan.baidu.com/s/1bnXdqdp
-    {'status': True, 'access_url': 'https://pan.baidu.com/s/1bnXdqdp'}
-    https://pan.baidu.com/s/1c7VEcIXt1ELRMwMbg1dcGg
-    {'messages': '暂未收录该链接的提取码', 'status': False}
-    """
-    lis = ["https://pan.baidu.com/s/1qYEj76s",
-           "https://pan.baidu.com/s/1qYLrSOs",
-           "http://pan.baidu.com/s/1dtT3i7y",
-           "https://pan.baidu.com/s/1gfrjidd",
-           "http://pan.baidu.com/s/1bnXdqdp",
-           "https://pan.baidu.com/s/1c7VEcIXt1ELRMwMbg1dcGg"]
     command_line_runner()
 
 
