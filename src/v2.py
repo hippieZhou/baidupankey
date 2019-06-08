@@ -11,6 +11,8 @@ import requests
 from datetime import datetime
 import json
 
+VERSION = "VERSION 1.0.0"
+
 accessKey = "4fxNbkKKJX2pAm3b8AEu2zT5d2MbqGbD"
 clientVersion = "web-client"
 
